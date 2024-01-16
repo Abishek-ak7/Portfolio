@@ -103,7 +103,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Abishek. All rights reserved.
+          &copy; Designed and Developed by Abishek.
         </Copyright>
 
       </FooterWrapper>

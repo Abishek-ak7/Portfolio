@@ -52,7 +52,7 @@ export const skills = [
     skills: [
       {
         name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
+        image: "https://i.imgur.com/mRD5c2V.png",
       },
       {
         name: "Express Js",
