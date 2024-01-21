@@ -257,11 +257,11 @@ export const projects = [
     description:
       "Developed a full-stack web application that allows users to short their links using the Long Url.",
     image:
-      "https://i.imgur.com/TcwY33F.png",
-    tags: ["HTML", "MongoDb", "CSS", "Python", "Flask"],
+      "https://i.imgur.com/xan934o.png",
+    tags: ["HTML","React.js","Node.js","Express.js", "MongoDb", "CSS"],
     category: "web app",
     github: "https://github.com/Abishek-ak7/URL-Shortener",
-    webapp: "",
+    webapp: "spiffy-conkies-f8b864.netlify.app",
   },
   {
     id: 1,
