@@ -261,7 +261,7 @@ export const projects = [
     tags: ["HTML","React.js","Node.js","Express.js", "MongoDb", "CSS"],
     category: "web app",
     github: "https://github.com/Abishek-ak7/URL-Shortener",
-    webapp: "spiffy-conkies-f8b864.netlify.app",
+    webapp: "https://spiffy-conkies-f8b864.netlify.app/",
   },
   {
     id: 1,
