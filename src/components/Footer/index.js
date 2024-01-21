@@ -83,6 +83,7 @@ const Copyright = styled.p`
   color: ${({ theme }) => theme.soft2};
   text-align: center;
 `;
+const heartSymbol = '\u2764';
 
 function Footer() {
   return (
@@ -103,7 +104,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; Designed and Developed by Abishek.
+          Designed and Developed by Abishek `${heartSymbol}`.
         </Copyright>
 
       </FooterWrapper>

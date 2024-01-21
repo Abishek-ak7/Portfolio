@@ -158,7 +158,7 @@ export const experiences = [
     role: "Software Developer Intern",
     company: "AirosSpace R&D,Chennai",
     date: "May 2023 - June 2023",
-    desc: "Working on Customizing the Mission Planner which is used to control the UAVs",
+    desc: "Worked on Customizing the Mission Planner which is used to control the UAVs.",
     skills: [
       "QT",
       "QML",
@@ -173,7 +173,7 @@ export const experiences = [
     role: "Amazon Web Services Cloud Intern",
     company: "F13 Technologies,New Delhi",
     date: "July 2023 - Oct 2023",
-    desc: "Built an project plans like Recommendation Systems architecture using AWS",
+    desc: "Built an project plans like Recommendation Systems architecture using AWS.",
     skills: [
       "AWS",
       "Project Management",
@@ -187,7 +187,7 @@ export const experiences = [
     role: "Android and Java Developer ",
     company: "Zetpeak , Banglore",
     date: "Nov 2023 - Jan 2024",
-    desc: "Developing an Android Application for the Company.",
+    desc: "Developed an Android Application for the Company.",
     skills:[
       "Java",
       "XML",
