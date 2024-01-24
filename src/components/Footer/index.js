@@ -104,7 +104,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          Designed and Developed by Abishek `${heartSymbol}`.
+          Designed and Developed by Abishek {heartSymbol}
         </Copyright>
 
       </FooterWrapper>
