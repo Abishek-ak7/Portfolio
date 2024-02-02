@@ -195,7 +195,6 @@ export const experiences = [
       "Android Studio",
       "Mobile App Development",
     ],
-    doc: "https://i.imgur.com/TDQAwp6.jpg",
     doc: "https://i.imgur.com/jkBl5ZB.png"
   },
 ];
