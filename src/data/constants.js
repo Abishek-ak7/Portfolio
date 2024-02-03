@@ -10,7 +10,7 @@ export const Bio = {
 "A second-year Computer Science and Cybersecurity student, blending programming proficiency with a cybersecurity focus. Enthusiastic about crafting secure software solutions, actively engaging in hackathons and aspiring to innovate in the tech sphere. Committed to continuous learning for a future impactful role as a Software Engineer.",
   github: "https://github.com/Abishek-ak7",
   resume:
-    "https://drive.google.com/file/d/1U9_0G7FcroucHg0esL6WAKzrYOY9p5m1/view?usp=sharing",
+    "https://drive.google.com/file/d/1uKIWv7qvLFQ4Sw58QZ10FHp5jSru9Rr2/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/abishek-n7/",
   twitter: "https://twitter.com/sreeabishek215",
   insta: "https://www.instagram.com/its_me._.ak_/",
