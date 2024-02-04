@@ -6,6 +6,17 @@ import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 
 const HeroSection = () => {
+    const resume = Bio.resume;
+    const handleDownload = () =>{
+        const fileId = extractFileId(resume);
+        const download = `https://drive.google.com/uc?id=${fileId}`;
+        window.location.href = download;
+
+    };
+    const extractFileId = (url) => {
+        const match = url.match(/\/d\/(.+?)\/(?:.*)/);
+        return match ? match[1] : null;
+    }
     return (
         <div id="about">
             <HeroContainer>
@@ -28,7 +39,7 @@ const HeroSection = () => {
                             </Span>
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
+                        <ResumeButton onClick={handleDownload}>Check Resume</ResumeButton>
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
