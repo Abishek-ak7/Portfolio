@@ -61,6 +61,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For inquiries or collaboration opportunities, please contact me at [your_email@example.com](mailto:abishekcsecs.com).
+For inquiries or collaboration opportunities, please contact me at [abishekcsecs@gmail.com](mailto:abishekcsecs@gmail.com).
 
 ---
