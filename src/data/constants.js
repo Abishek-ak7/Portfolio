@@ -1,16 +1,17 @@
 export const Bio = {
   name: "Abishek N ",
   roles: [
+    "Java Developer",
     "Software Engineer",
     "Android Developer",
     "Python Developer",
     "Programmer",
   ],
   description:
-"A second-year Computer Science and Cybersecurity student, blending programming proficiency with a cybersecurity focus. Enthusiastic about crafting secure software solutions, actively engaging in hackathons and aspiring to innovate in the tech sphere. Committed to continuous learning for a future impactful role as a Software Engineer.",
+"A third-year Computer Science and Cybersecurity student, blending programming proficiency with a cybersecurity focus. Enthusiastic about crafting secure software solutions, actively engaging in hackathons and aspiring to innovate in the tech sphere. Committed to continuous learning for a future impactful role as a Software Engineer.",
   github: "https://github.com/Abishek-ak7",
   resume:
-    "https://drive.google.com/file/d/17RFZfjk_OBMvuZzvNr2BP8vWIwP867cX/view?usp=sharing",
+    "https://drive.google.com/file/d/1B0WF9WFJST-4Uv2ZE9E9favWKdWQ13Oq/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/abishek-n7/",
   twitter: "https://twitter.com/sreeabishek215",
   insta: "https://www.instagram.com/its_me._.ak_/",
@@ -197,6 +198,61 @@ export const experiences = [
     ],
     doc: "https://i.imgur.com/jkBl5ZB.png"
   },
+  {
+    id: 3,
+    img: "https://i.imgur.com/T1gUH8y.jpeg",
+    role: "Fullstack Developer Intern",
+    company: "Autotech Company,Chennai",
+    date: "May 2024 - Jun 2024",
+    desc: "Developed an web Application for the Company.",
+    skills:[
+      "Java",
+      "Springboot",
+      "Angular.js",
+      "PostgreSQL",
+      "Redux",
+      "Restful API",
+      "Tailwind CSS"
+    ],
+  },
+  {
+    id: 4,
+    img: "https://i.imgur.com/asrFPgu.jpeg",
+    role: "Frontend Developer Intern",
+    company: "Malcom Company,Chennai",
+    date: "May 2024 - Jul 2024",
+    desc: "I have worked in the development of the company landing website .",
+    skills:[
+      "React.js",
+      "HTML",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Redux",
+      "Restful API"
+    ],
+    doc:"https://i.imgur.com/5AjLxZE.png"
+    
+  },
+  {
+    id: 5,
+    img: "https://i.imgur.com/Riwavtv.png",
+    role: "FUllstack Developer Intern",
+    company: "Zetspace,Chennai",
+    date: "Jul 2024 - Sep 2024",
+    desc: "I have worked in the development of the company landing website .",
+    skills:[
+      "React.js",
+      "HTML",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Mongodb",
+      "Restful API",
+      "Java",
+      "Springboot"
+    ],
+    
+  },
+
 ];
 
 export const education = [
@@ -227,9 +283,50 @@ export const education = [
     desc: "I completed my class 10 education at Vivekananda Kendra Vidyalaya ,Tirunelveli, where I studied at PCM.",
     degree: "TN State Board (X), PCM",
   },
+
 ];
 
 export const projects = [
+  {
+    id: 1,
+    title: "Malcom Company Website",
+    date: "May 2024 - Jul 2024",
+    description:
+      "Malcom Company landing page",
+    image:
+      "https://i.imgur.com/PqsD4GN.png",
+    tags: [
+      "React.js",
+      "HTML",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Redux",
+      "Restful API"
+    ],
+    category: "web app",
+    webapp: "https://malcom.ltd",
+  },
+  {
+    id: 2,
+    title: "Zetspace Company Website",
+    date: "Jul 2024 - Sep 2024",
+    description:
+      "Zetspace Company landing page",
+    image:
+      "https://i.imgur.com/rY7xjjm.png",
+    tags: [
+      "React.js",
+      "HTML",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Mongodb",
+      "Restful API",
+      "Java",
+      "Springboot"
+    ],
+    category: "web app",
+    webapp: "https://zetspace.in",
+  },
   {
     id: 9,
     title: "Raindrop Rapper",
@@ -251,6 +348,7 @@ export const projects = [
     webapp: "",
   },
   {
+
     id: 0,
     title: "URL Shortener",
     date: "Apr 2023 - May 2023",
@@ -291,19 +389,6 @@ export const projects = [
     category: "android app",
     github: "https://github.com/Abishek-ak7/Zetpeak",
     webapp: "https://github.com/Abishek-ak7/Zetpeak",
-  },
-  {
-    id: 8,
-    title: "Face Recognition",
-    date: "Jan 2021",
-    description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-    image:
-      "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
   },
 ];
 
