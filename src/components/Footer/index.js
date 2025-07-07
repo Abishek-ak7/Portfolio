@@ -4,6 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio } from '../../data/constants';
+import Privacy from '../Privacy/privacy';
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -96,6 +97,7 @@ function Footer() {
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
+          <NavLink href="#privacy">Privacy</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.whatsapp} target="display"><WhatsappIcon /></SocialMediaIcon>

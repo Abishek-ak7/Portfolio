@@ -14,6 +14,7 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
+import Privacy from "./components/Privacy/privacy.jsx";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -49,6 +50,7 @@ function App() {
           {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
           }
+          <Privacy/>
         </Body>
       </Router>
     </ThemeProvider>

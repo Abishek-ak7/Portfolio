@@ -231,7 +231,7 @@ const index = ({ openModal, setOpenModal }) => {
                     </ButtonGroup>
                 </Wrapper>
             </Container>
-
+                    
         </Modal>
     )
 }
