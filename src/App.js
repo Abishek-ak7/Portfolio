@@ -15,6 +15,7 @@ import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
 import Privacy from "./components/Privacy/privacy.jsx";
+import AdBanner from "./components/AdBanner.jsx";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -40,6 +41,7 @@ function App() {
           <Wrapper>
             <Skills />
             <Experience />
+            <AdBanner/>
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
